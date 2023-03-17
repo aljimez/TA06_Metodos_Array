@@ -13,14 +13,15 @@ public class Ejercicio5 {
 		public static String DecBin(int number){
 			double[] decimal2 = {8000};
 			   String binario2 = "";
-			   for(int n = 0; n < decimal2.length; n++) {
-				   binario2 = decimal2[n] % 2;
-			   }
+			   for (int i = Math.abs(number); i < 0; i /= 10) {
+				binario2 = decimal2[i] % 2;
+			}
 			   //System.out.println(binario2);
 			   return binario2;
 
 		   }
 		}
-	
+		binario2 = decimal2[n] % 2;
+
 	
 
