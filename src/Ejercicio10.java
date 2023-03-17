@@ -1,6 +1,5 @@
 import java.util.Random;
 import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 public class Ejercicio10 {
@@ -12,6 +11,7 @@ public class Ejercicio10 {
 		 numeroMayor(array1);
 		 
 	}
+	//Generar numeros aleatorios
 	public static void randGen(int array1[]) {
 		 int num1 = Integer.parseInt(JOptionPane.showInputDialog("Hasta que numero quieres generar los numeros random"));
 		Random rand = new Random();
@@ -24,6 +24,7 @@ public class Ejercicio10 {
 			}
 		}
 	 }
+	 //Generar numero primo
 	public static boolean Genprimo(int num1) {
 		int i  = 2;
 		boolean res = true;
@@ -35,6 +36,7 @@ public class Ejercicio10 {
 		}
 		return res;
 	}
+	//Determinar cual es el mayor número de todos los del array
 	public static void numeroMayor(int array[]) {
 		int nMay = 0;
 		for( int i =0;i<array.length;i++) {
@@ -42,6 +44,7 @@ public class Ejercicio10 {
 		}
 		System.out.println("Primo mayor"+ nMay);
 	}
+	//Funcion para mstrar array por pantalla
 	public static void mostrarArray(int array[]) {
 		for(int i = 0;i<array.length;i++) {
 			

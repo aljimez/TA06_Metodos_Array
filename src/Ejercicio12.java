@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 public class Ejercicio12 {
+	
 	public static void main(String []args) {
 
 	Scanner sc = new Scanner(System.in);
@@ -12,7 +13,7 @@ public class Ejercicio12 {
 	rellArr(array1);
 mostrarArray(array1,numFinal);
 	}
-
+//Llenamos el array con valores random
 	public static void rellArr( int array[]){
 	Random rad = new Random();
 	for (int i = 0; i < array.length; i++) {
@@ -20,6 +21,8 @@ mostrarArray(array1,numFinal);
 	}
 		
 	}
+			//Funcion para mstrar array por pantalla
+
 public static void mostrarArray(int array[], int numFinal){
 
 int i = 0;

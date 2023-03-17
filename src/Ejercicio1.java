@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class Ejercicio1 {
 
 	public static void main(String []args) {
+		//Introducir figura 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduce la figura a calcular");
 	    String input = sc.nextLine();
 		int res = 0;
+		//Calculo del area de la figura introducida
 	    switch(input) {
 	    case "circulo":
 	    	System.out.println("Introduce el radio del circulo a medir");
