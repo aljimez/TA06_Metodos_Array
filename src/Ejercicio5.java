@@ -10,14 +10,17 @@ public class Ejercicio5 {
 
 		DecBin(number);
 	    }
-		public static string DecBin(int number){
+		public static String DecBin(int number){
 			double[] decimal2 = {8000};
-			   double binario2 = 0;
+			   String binario2 = "";
 			   for(int n = 0; n < decimal2.length; n++) {
 				   binario2 = decimal2[n] % 2;
 			   }
-			   System.out.println(binario2);
+			   //System.out.println(binario2);
+			   return binario2;
+
 		   }
+		}
 	
-}
+	
 
